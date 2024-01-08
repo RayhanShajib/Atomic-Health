@@ -7,9 +7,11 @@
   --clr-secondary: #ffff;
   --clr-ternary: #d0b30c;
 
-  /* Gradient colors */
+  /* Gradiant colors */
   --color-bg1: rgb(108, 0, 162);
+  /* --color-bg1: var(--clr-ternary); */
   --color-bg2: rgb(0, 17, 82);
+  /* --color-bg2: var(--clr-primary); */
   --color1: 18, 113, 255;
   --color2: 221, 74, 255;
   --color3: 100, 220, 255;
@@ -17,7 +19,7 @@
   --color5: 180, 180, 50;
   --color-interactive: 140, 100, 255;
   --circle-size: 80%;
-  --blending: hard-light
+  --blending: hard-light;
 
   --ff-primary: "AbcWhyte";
   --ff-body: var(--ff-primary), sans-serif;
@@ -372,7 +374,6 @@ footer{
   height:100%;
   position:absolute;
 }
-
 @keyframes moveInCircle{
   0%{
       transform:rotate(0)
