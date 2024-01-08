@@ -260,7 +260,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: end;
-  @media screen and (max-width: 668px) {
+}
+@media screen and (max-width: 668px) {
+  .card{
     min-height: 100%;
   }
 }
@@ -369,8 +371,8 @@ footer{
   border-top-right-radius: 5rem;
   padding: 3rem 0;
 }
-footer > video{
-  width: 50%;
+footer video{
+  width: 30%;
 }
 .text-container{
   z-index:100;
