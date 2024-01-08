@@ -145,10 +145,16 @@ a {
   color: var(--clr-secondary);
 }
 .txt-medium-bold-500 {
-  font-size: var(--fs-500);
+  font-size: 2.5em;
   font-weight: var(--fw-semi-bold);
   color: var(--clr-secondary);
   line-height: 1.2;
+  @media screen and (max-width: 668px) {
+    font-size: 2em;
+    @media screen and (max-width: 400px) {
+      font-size: 1.5em;
+    }
+  }
 }
 .txt-italic {
   font-style: italic;
@@ -240,6 +246,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: end;
+  @media screen and (max-width: 668px) {
+    min-height: 100%;
+  }
 }
 .card:hover > .card-bg {
   transform: translate3d(0px, 0px, 0px) scale3d(1.03, 1.03, 1.03) rotateX(0deg)
@@ -262,8 +271,9 @@ nav {
 }
 .card-txt {
   padding: 5rem;
-  @media screen and (max-width: 500px) {
-    padding: 3rem;
+  @media screen and (max-width: 668px) {
+    margin: 2rem;
+    padding: 2rem;
   }
 }
 .highlight {

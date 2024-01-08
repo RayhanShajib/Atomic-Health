@@ -3,7 +3,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 const locomotiveScroll = new LocomotiveScroll();
 
 AOS.init({
-    duration: 700,
+    duration: 900,
 });
 const nameAnimationText = new SplitType('#animation')
 const nameAnimationText2 = new SplitType('#animation2')
