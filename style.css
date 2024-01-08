@@ -12,12 +12,12 @@
   --color-bg1: var(--clr-ternary);
   /* --color-bg2: rgb(0, 17, 82); */
   --color-bg2: var(--clr-primary);
-  --color1: 18, 113, 255;
-  --color2: 221, 74, 255;
-  --color3: 100, 220, 255;
-  --color4: 200, 50, 50;
-  --color5: 180, 180, 50;
-  --color-interactive: 140, 100, 255;
+  --color1: 52, 110, 39;
+  --color2: 255, 128, 149;
+  --color3: 247, 78, 40;
+  --color4: 255, 84, 84;
+  --color5: 255, 197, 97;
+  --color-interactive: 208, 179, 12;
   --circle-size: 80%;
   --blending: hard-light;
 
