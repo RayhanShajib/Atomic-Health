@@ -369,15 +369,9 @@ footer{
   border-top-right-radius: 5rem;
   padding: 3rem 0;
 }
-
-
-
-
-
-
-
-
-
+footer > video{
+  width: 50%;
+}
 .text-container{
   z-index:100;
   width:100%;
