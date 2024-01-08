@@ -8,10 +8,10 @@
   --clr-ternary: #d0b30c;
 
   /* Gradiant colors */
-  --color-bg1: rgb(108, 0, 162);
-  /* --color-bg1: var(--clr-ternary); */
-  --color-bg2: rgb(0, 17, 82);
-  /* --color-bg2: var(--clr-primary); */
+  /* --color-bg1: rgb(108, 0, 162); */
+  --color-bg1: var(--clr-ternary);
+  /* --color-bg2: rgb(0, 17, 82); */
+  --color-bg2: var(--clr-primary);
   --color1: 18, 113, 255;
   --color2: 221, 74, 255;
   --color3: 100, 220, 255;
