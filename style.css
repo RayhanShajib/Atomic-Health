@@ -224,7 +224,7 @@ body {
   background: var(--clr-secondary);
 }
 section {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
 /* #hero {
   background: var(--clr-primary);
@@ -249,7 +249,7 @@ section {
   justify-content: end;
 }
 nav {
-  padding: 2rem 0;
+  padding: 1rem 0;
 }
 .card-box {
   display: grid;
@@ -434,7 +434,7 @@ footer video{
   display:none
 }
 .gradient-bg .gradients-container{
-  filter:url(#goo) blur(40px);
+  filter:url(#goo) blur(100px);
   width:100%;
   height:100%
 }
