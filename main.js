@@ -1,30 +1,8 @@
 import LocomotiveScroll from 'locomotive-scroll';
 
 
-document.addEventListener('DOMContentLoaded', () => {
-    const interBubble = document.querySelector('.interactive');
+(function(){const r=document.createElement("link").relList;if(r&&r.supports&&r.supports("modulepreload"))return;for(const e of document.querySelectorAll('link[rel="modulepreload"]'))i(e);new MutationObserver(e=>{for(const t of e)if(t.type==="childList")for(const o of t.addedNodes)o.tagName==="LINK"&&o.rel==="modulepreload"&&i(o)}).observe(document,{childList:!0,subtree:!0});function n(e){const t={};return e.integrity&&(t.integrity=e.integrity),e.referrerPolicy&&(t.referrerPolicy=e.referrerPolicy),e.crossOrigin==="use-credentials"?t.credentials="include":e.crossOrigin==="anonymous"?t.credentials="omit":t.credentials="same-origin",t}function i(e){if(e.ep)return;e.ep=!0;const t=n(e);fetch(e.href,t)}})();document.addEventListener("DOMContentLoaded",()=>{const s=document.querySelector(".interactive");let r=0,n=0,i=0,e=0;function t(){r+=(i-r)/20,n+=(e-n)/20,s.style.transform=`translate(${Math.round(r)}px, ${Math.round(n)}px)`,requestAnimationFrame(()=>{t()})}window.addEventListener("mousemove",o=>{i=o.clientX,e=o.clientY}),t()});
 
-    let curX = 0;
-    let curY = 0;
-    let tgX = 0;
-    let tgY = 0;
-
-    function move() {
-        curX += (tgX - curX) / 20;
-        curY += (tgY - curY) / 20;
-        interBubble.style.transform = `translate(${Math.round(curX)}px, ${Math.round(curY)}px)`;
-        requestAnimationFrame(() => {
-            move();
-        });
-    }
-
-    window.addEventListener('mousemove', (event) => {
-        tgX = event.clientX;
-        tgY = event.clientY;
-    });
-
-    move();
-});
 
 
 
