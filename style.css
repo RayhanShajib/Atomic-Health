@@ -9,16 +9,16 @@
 
   /* Gradiant colors */
   /* --color-bg1: rgb(108, 0, 162); */
-  --color-bg1: var(--clr-ternary);
+  --color-bg1: var(--clr-primary);
   /* --color-bg2: rgb(0, 17, 82); */
   --color-bg2: var(--clr-primary);
-  --color1: 52, 110, 39;
-  --color2: 255, 128, 149;
-  --color3: 247, 78, 40;
-  --color4: 255, 84, 84;
-  --color5: 255, 197, 97;
-  --color-interactive: 208, 179, 12;
-  --circle-size: 80%;
+  --color1: 208, 179, 12;
+  --color2: 255, 161, 77;
+  --color3: 255, 153, 56;
+  --color4: 255, 170, 84;
+  --color5: 255, 143, 122255, 197, 97;
+  --color-interactive: 255, 132, 71;
+  --circle-size: 50%;
   --blending: hard-light;
 
   --ff-primary: "AbcWhyte";
