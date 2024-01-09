@@ -18,7 +18,7 @@ This repository contains the web design implementation for the home page of Atom
 ## Installation
 
 To set up the project locally, follow these steps:
-1. Unzip the Atomic-Health.zip
+1. Unzip the source-code.zip
 2. Navigate to the project folder: cd Atomic-Health
 3. Install required modules: npm install
 
