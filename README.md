@@ -67,15 +67,3 @@ Both parties agree to keep confidential any proprietary information disclosed du
 ## Changes and Revisions
 
 Any changes or revisions to the project scope must be agreed upon in writing by both parties.# atomic-health
-# atomic-health
-# atomic-health
-# atomic-health
-# atomic-health
-# atomic-health
-# atomic-health
-# Atomic-Health-Care
-# AtomicHealth-Care
-# health-care
-# health-care
-# atm-health
-# health-care
